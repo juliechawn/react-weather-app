@@ -35,7 +35,7 @@ export default class cityEntries extends React.Component {
 
   componentDidMount() {
     const { dispatch } = this.props
-    axios.get('http://api.openweathermap.org/data/2.5/weather?q=san+diego&units=imperial&appid=ea12361fcb12b97a8d49cccba2fb3e71')
+    axios.get('https://api.openweathermap.org/data/2.5/weather?q=san+diego&units=imperial&appid=ea12361fcb12b97a8d49cccba2fb3e71')
       .then((res) => {
         let searchName = res.data.name;
         dispatch(searchCity(searchName))

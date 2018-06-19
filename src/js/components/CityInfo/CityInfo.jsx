@@ -14,7 +14,7 @@ export default class CityInfo extends React.Component {
 
         <div className='card-header bg-primary text-white'>City Information</div>
         <div className='card-body text-center'>
-          <img src={'http://openweathermap.org/img/w/' + cityIcon + '.png'} />
+          <img src={'https://openweathermap.org/img/w/' + cityIcon + '.png'} />
           <h2>{cityName}</h2>
           <p><small>Lat/Long:<text defaultValue={name}>{cityLat}</text>,<text defaultValue={name}>{cityLong}</text></small></p>
           <hr />
