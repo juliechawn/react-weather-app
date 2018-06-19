@@ -61,7 +61,7 @@ export default function CityReducer(state = defaultState, action) {
                 ...state,
                 searchName: '',
                 errorName: '',
-                error: 'Hmm, can not find weather for '
+                error: 'Hmm, can not find weather'
             }
         }
 
